@@ -1,8 +1,8 @@
 ---
-title: HarmonAI III
-emoji: 🦀
-colorFrom: green
-colorTo: blue
+title: Llama-finetune-sandbox
+emoji: 🦙
+colorFrom: blue
+colorTo: purple
 sdk: streamlit
 sdk_version: 1.39.0
 app_file: app.py
@@ -11,200 +11,99 @@ license: mit
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_III/refs/heads/main/docs/HarmonAI-III.png" width="100%">
-  <h1 align="center">🌟 HarmonAI III 🌟</h1>
+  <img src="docs/Llama-finetune-sandbox.png" width="100%">
+  <h1 align="center">🌟 Llama-finetune-sandbox 🌟</h1>
 </p>
+
 <p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III">
-    <img alt="GitHub Repo" src="https://img.shields.io/badge/github-HarmonAI__III-blue?logo=github">
+  <a href="https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox">
+    <img alt="GitHub Repo" src="https://img.shields.io/badge/github-Llama--finetune--sandbox-blue?logo=github">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/Sunwood-ai-labs/HarmonAI_III?color=green">
+  <a href="https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/Sunwood-ai-labs/Llama-finetune-sandbox?color=green">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/HarmonAI_III?style=social">
+  <a href="https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/Llama-finetune-sandbox?style=social">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/Sunwood-ai-labs/HarmonAI_III?include_prereleases&style=flat-square">
+  <a href="https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/Sunwood-ai-labs/Llama-finetune-sandbox?include_prereleases&style=flat-square">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Sunwood-ai-labs/HarmonAI_III">
-  </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/pulls">
-    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/network/members">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Sunwood-ai-labs/HarmonAI_III?style=social">
-  </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/watchers">
-    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Sunwood-ai-labs/HarmonAI_III?style=social">
-  </a>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/HarmonAI_III">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/HarmonAI_III">
 </p>
+
 <h2 align="center">
-  ～ AI-Powered Automated Repository Management Template ～
-
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
+  ～ Llama Model Fine-tuning Experiment Environment ～
 </h2>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google" alt="Google Gemini">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
-  <img src="https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=github-actions" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml" alt="YAML">
-  <img src="https://img.shields.io/badge/pip-3775A9?style=for-the-badge&logo=pypi" alt="pip">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown" alt="Markdown">
-  <img src="https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github" alt="GitHub API">
-</p>
-<p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/AIRA">
-    <img src="https://img.shields.io/badge/AIRA-FF4500?style=for-the-badge&logo=github" alt="AIRA">
-  </a>
-  <a href="https://github.com/Sunwood-ai-labs/IRIS">
-    <img src="https://img.shields.io/badge/IRIS-9370DB?style=for-the-badge&logo=github" alt="IRIS">
-  </a>
-</p>
 
-
-> [!IMPORTANT]
-> HarmonAI III is a template repository developed using [cline (formerly Claude Dev)](https://github.com/clinebot/cline), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), and [claude.ai](https://claude.ai/).  Most of the release notes, README, and commit messages were generated using the latest AI technology.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-2.0%2B-red?style=for-the-badge&logo=pytorch" alt="PyTorch">
+  <img src="https://img.shields.io/badge/HuggingFace-yellow?style=for-the-badge&logo=huggingface" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker" alt="Docker">
+  <img src="https://img.shields.io/badge/CUDA-11.7%2B-green?style=for-the-badge&logo=nvidia" alt="CUDA">
+</p>
 
 ## 🚀 Project Overview
 
-HarmonAI III is an innovative **AI repository starter kit** integrating AIRA and IRIS. This repository aims to dramatically improve developer efficiency by providing the structure and workflow for AI development projects leveraging LLMs. Version: `v0.0.0`
+**Llama-finetune-sandbox** is an experimental environment for learning and verifying fine-tuning of Llama models.  You can try various fine-tuning methods, customize models, and evaluate their performance. It caters to a wide range of users, from beginners to researchers.
 
+## ✨ Key Features
 
-## 🆕 Latest News
+1. **Diverse Fine-tuning Methods**:
+   - LoRA (Low-Rank Adaptation)
+   - QLoRA (Quantized LoRA)
+   - Full Fine-tuning
+   - Parameter-Efficient Fine-tuning (PEFT)
 
-- 🎉 **v0.0.0 Release**: Initial release. Provides a basic repository structure including `app.py`, `issue_creator.log`, `requirements.txt`, `README.md`, and `.env.example`. The Streamlit application (`app.py`) displays the `README.md`.
+2. **Flexible Model Settings**:
+   - Customizable maximum sequence length
+   - Various quantization options
+   - Multiple attention mechanisms
 
+3. **Experiment Environment Setup**:
+   - Performance evaluation tools
+   - Memory usage optimization
+   - Visualization of experimental results
 
-## ✨ Main Features
+## 📚 Implementation Examples
 
-1. **README Display via Streamlit App**: Displays the contents of `README.md` in a Streamlit application.
+This repository includes the following implementation examples:
 
-## 🔧 How to Use
+1. **High-speed fine-tuning using Unsloth**:
+   - Implementation of high-speed fine-tuning for Llama-3.2-1B/3B models.
+     - → See [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) for details. (Japanese)
+     - → [Use this to convert from markdown to notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
+   - [📒Notebook here](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
-### Running the Streamlit App
-1. Install the necessary packages with `pip install -r requirements.txt`.
-2. Run `streamlit run app.py`.
+2. Other implementation examples will be added periodically.
 
+## 🛠️ Environment Setup
 
-## 📦 Installation Instructions
-
-1. Clone this repository.
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## 🌿 Environment Setup
-
-Follow these steps to set up the HarmonAI III environment:
-
-1. Create a virtual environment:
-   ```bash
-   python3 -m venv .venv
-   ```
-   This creates a virtual environment in the `.venv` directory.
-
-2. Activate the virtual environment:
-   ```bash
-   source .venv/bin/activate  # Linux/macOS
-   .venv\Scripts\activate  # Windows
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-These steps will prepare the development environment for HarmonAI III.
-
-
-## 📚 Main Components
-
-### 🤖 [AIRA (AI-Integrated Repository for Accelerated Development)](https://github.com/Sunwood-ai-labs/AIRA)
-- Automated repository creation
-- Automated commit message generation
-
-### 🌈 [IRIS (Intelligent Repository Issue Solver)](https://github.com/Sunwood-ai-labs/IRIS)
-- Automated issue classification
-- Automated solution suggestions
-- Automated release note generation
-- Automated README translation
-
-## 🤝 Automated Collaborator Invitation
-
-(This section is left as-is because it's not functional in v0.0.0.)
-
-1. Create a `.env` file and set the necessary tokens:
-   ```
-   # GitHub access token (for collaborator invitation)
-   GITHUB_TOKEN=your_github_personal_access_token_here
-
-   # These are examples of tokens that may be used by other features.  It's helpful to include them for future use.
-   # GITHUB_ACCESS_TOKEN=ghp_xxxxx
-   # YOUR_PERSONAL_ACCESS_TOKEN_IRIS=ghp_yyyyy
-   # GEMINI_API_KEY=AIzzzzz
-   ```
-
-   Note: Add the `.env` file to `.gitignore` to prevent it from being committed to the repository.
-
-2. Run the following command to invite collaborators:
-   ```bash
-   python .github/github_add_collaborator.py Sunwood-ai-labs/HarmonAI_III username_to_invite
-   ```
-
-   Replace `username_to_invite` with the GitHub username you want to invite.
-
-3. If the script runs successfully, a collaborator invitation will be sent to the specified user.
-
-
-## 🐈 Process Flow
-
-(This section is left as-is because it's not applicable in v0.0.0.)
-
-
-```mermaid
-%%{init:{'theme':'base','themeVariables':{'primaryColor':'#024959','primaryTextColor':'#F2C335','primaryBorderColor':'#F2AE30','lineColor':'#A1A2A6','secondaryColor':'#593E25','tertiaryColor':'#F2C335','noteTextColor':'#024959','noteBkgColor':'#F2C335','textColor':'#024959','fontSize':'18px'}}}%%
-
-graph LR
-    A[Start] --> B[Repository Conception and Naming]
-    B -->|Human Action| C[HarmonAI III Repository Initialization]
-    C -->|Automated| D[Development Work]
-    D -->|Human Action| E[AIRA Automated Commits]
-    E --> H[IRIS Release Note Generation]
-    H --> I[IRIS Document Translation]
-    I --> J[Release]
-    J --> K[End]
-
-    class B,D,G human;
-    class E aira;
-    class F,H,I iris;
-    class C auto;
-    class A,J,K process;
-
+1. Clone the repository:
+```bash
+git clone https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox.git
+cd Llama-finetune-sandbox
 ```
 
+## 📝 Adding Experiment Examples
 
+1. Add a new implementation to the `examples/` directory.
+2. Add necessary settings and utilities to `utils/`.
+3. Update documentation and tests.
+4. Create a pull request.
 
 ## 🤝 Contributions
 
-HarmonAI III welcomes contributions from the community as an open-source project. Please help improve this template repository through bug reports, feature requests, and pull requests.
+- Implementation of new fine-tuning methods
+- Bug fixes and feature improvements
+- Documentation improvements
+- Addition of usage examples
 
-## 📄 License
+## 📚 References
 
-HarmonAI III is released under the [MIT License](LICENSE).
+- [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft)
+- [About Llama models](https://github.com/facebookresearch/llama)
+- [Fine-tuning best practices](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
 
-## 🙏 Acknowledgements
+## ⚖️ License
 
-HarmonAI III draws inspiration from many open-source projects.  We especially thank the developers of AIRA and IRIS.  We also thank iris-s-coon and Maki.
-
----
-
-HarmonAI III is an excellent starter kit for achieving an AI-driven development process.  Start developing innovative AI projects based on this template!
+This project is licensed under the MIT License.
