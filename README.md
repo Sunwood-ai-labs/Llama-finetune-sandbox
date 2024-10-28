@@ -11,7 +11,7 @@ license: mit
 ---
 
 <p align="center">
-  <img src="docs/Llama-finetune-sandbox.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/Llama-finetune-sandbox/refs/heads/main/docs/Llama-finetune-sandbox.png" width="100%">
   <h1 align="center">🌟 Llama-finetune-sandbox 🌟</h1>
 </p>
 
