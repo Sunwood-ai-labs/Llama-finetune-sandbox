@@ -44,41 +44,67 @@ license: mit
 
 ## 🚀 Project Overview
 
-**Llama-finetune-sandbox** provides an experimental environment for learning and verifying Llama model fine-tuning.  You can try various fine-tuning methods, customize models, and evaluate performance.  It caters to a wide range of users, from beginners to researchers. Version 0.1.0 includes a repository name change, a significantly updated README, and the addition of a Llama model fine-tuning tutorial.
+**Llama-finetune-sandbox** is an experimental environment for learning and verifying Llama model fine-tuning.  You can try various fine-tuning methods, customize models, and evaluate performance.  It caters to a wide range of users, from beginners to researchers.  Version 0.1.0 includes a repository name change, significantly updated README, and added a Llama model fine-tuning tutorial.
 
-## ✨ Main Features
+## ✨ Key Features
 
-1. **Diverse Fine-tuning Methods**:
+1. **Various Fine-tuning Methods:**
    - LoRA (Low-Rank Adaptation)
    - QLoRA (Quantized LoRA)
    - ⚠️~Full Fine-tuning~
    - ⚠️~Parameter-Efficient Fine-tuning (PEFT)~
 
-2. **Flexible Model Settings**:
+2. **Flexible Model Settings:**
    - Customizable maximum sequence length
    - Various quantization options
    - Multiple attention mechanisms
 
-3. **Experimental Environment Setup**:
+3. **Experimental Environment Setup:**
    - Performance evaluation tools
    - Memory usage optimization
    - Visualization of experimental results
 
-## 🔧 How to Use
 
-This repository includes a tutorial on high-speed fine-tuning using the Unsloth library (`sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`). This tutorial provides a step-by-step explanation of the fine-tuning process with numerous code examples.  The tutorial is written in Japanese. [Use this to convert from Markdown to Notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI).  A [Google Colab notebook](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing) is also available.
+## 📚 Implementation Examples
 
+This repository includes the following implementation examples:
 
-## 📦 Installation Instructions
+1. **High-speed fine-tuning using Unsloth:**
+   - Implementation of high-speed fine-tuning for Llama-3.2-1B/3B models.
+     - → See [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) for details.
+     - → [Use this to convert from Markdown to Notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
+   - [📒Notebook here](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
-Information not available.
+2.  Other implementation examples will be added periodically.
 
+## 🛠️ Environment Setup
 
-## 🆕 Latest News
+1. Clone the repository:
+```bash
+git clone https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox.git
+cd Llama-finetune-sandbox
+```
 
-- 🎉 Added Llama model fine-tuning tutorial.
+## 📝 Adding Example Experiments
 
+1. Add new implementations to the `examples/` directory.
+2. Add necessary settings and utilities to `utils/`.
+3. Update documentation and tests.
+4. Create a pull request.
 
-## 📄 License
+## 🤝 Contributions
+
+- Implementation of new fine-tuning methods
+- Bug fixes and feature improvements
+- Documentation improvements
+- Addition of usage examples
+
+## 📚 References
+
+- [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft)
+- [About Llama Models](https://github.com/facebookresearch/llama)
+- [Fine-tuning Best Practices](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
+
+## ⚖️ License
 
 This project is licensed under the MIT License.
