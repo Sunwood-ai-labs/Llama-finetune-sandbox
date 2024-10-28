@@ -44,15 +44,14 @@ license: mit
 
 ## 🚀 プロジェクト概要
 
-**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.1.0では、リポジトリ名が変更され、READMEが大幅に更新されました。さらに、Llamaモデルのファインチューニングチュートリアルが追加されました。
+**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.2.0では、ドキュメントの更新と改善が行われました。特に、OllamaとLiteLLMを使った効率的なモデル運用ガイドが追加され、README.mdと実装例ガイドも見やすくなりました。
+
 
 ## ✨ 主な機能
 
 1. **多様なファインチューニング手法**:
    - LoRA (Low-Rank Adaptation)
    - QLoRA (Quantized LoRA)
-   - ⚠️~Full Fine-tuning~
-   - ⚠️~Parameter-Efficient Fine-tuning (PEFT)~
    
 2. **柔軟なモデル設定**:
    - カスタム可能な最大シーケンス長
@@ -78,6 +77,7 @@ license: mit
  - Google Colabでのセットアップと運用ガイド
  - → 詳細は [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) をご参照ください。
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
+
 
 ## 🛠️ 環境構築
 
@@ -107,6 +107,7 @@ cd Llama-finetune-sandbox
 - [Llama モデルについて](https://github.com/facebookresearch/llama)
 - [ファインチューニングのベストプラクティス](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
 
-## ⚖️ ライセンス
+## 📄 ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
+```
