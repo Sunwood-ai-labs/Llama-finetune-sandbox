@@ -31,7 +31,7 @@ license: mit
 </p>
 
 <h2 align="center">
-  Llama Model Fine-tuning Experiment Environment
+  ～ Llama Model Fine-tuning Experiment Environment ～
 </h2>
 
 <p align="center">
@@ -46,27 +46,27 @@ license: mit
 
 **Llama-finetune-sandbox** provides an experimental environment for learning and verifying Llama model fine-tuning.  You can try various fine-tuning methods, customize models, and evaluate performance.  It caters to a wide range of users, from beginners to researchers. Version 0.1.0 includes a repository name change, a significantly updated README, and the addition of a Llama model fine-tuning tutorial.
 
-## ✨ Key Features
+## ✨ Main Features
 
-1. **Diverse Fine-tuning Methods:**
+1. **Diverse Fine-tuning Methods**:
    - LoRA (Low-Rank Adaptation)
    - QLoRA (Quantized LoRA)
-   - Full Fine-tuning
-   - Parameter-Efficient Fine-tuning (PEFT)
+   - ⚠️~Full Fine-tuning~
+   - ⚠️~Parameter-Efficient Fine-tuning (PEFT)~
 
-2. **Flexible Model Configuration:**
+2. **Flexible Model Settings**:
    - Customizable maximum sequence length
    - Various quantization options
    - Multiple attention mechanisms
 
-3. **Experiment Environment Setup:**
+3. **Experimental Environment Setup**:
    - Performance evaluation tools
    - Memory usage optimization
    - Visualization of experimental results
 
 ## 🔧 How to Use
 
-This repository includes a tutorial on high-speed fine-tuning using the Unsloth library (`sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`). This tutorial explains the fine-tuning process step-by-step with numerous code examples.  The tutorial is written in Japanese. [Use this to convert from Markdown to Notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI). A [Google Colab notebook](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing) is also available.
+This repository includes a tutorial on high-speed fine-tuning using the Unsloth library (`sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`). This tutorial provides a step-by-step explanation of the fine-tuning process with numerous code examples.  The tutorial is written in Japanese. [Use this to convert from Markdown to Notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI).  A [Google Colab notebook](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing) is also available.
 
 
 ## 📦 Installation Instructions
