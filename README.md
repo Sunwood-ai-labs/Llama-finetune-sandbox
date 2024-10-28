@@ -51,8 +51,8 @@ license: mit
 1. **多様なファインチューニング手法**:
    - LoRA (Low-Rank Adaptation)
    - QLoRA (Quantized LoRA)
-   - Full Fine-tuning
-   - Parameter-Efficient Fine-tuning (PEFT)
+   - ⚠️~Full Fine-tuning~
+   - ⚠️~Parameter-Efficient Fine-tuning (PEFT)~
    
 2. **柔軟なモデル設定**:
    - カスタム可能な最大シーケンス長
