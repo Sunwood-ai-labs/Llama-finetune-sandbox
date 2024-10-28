@@ -64,18 +64,20 @@ license: mit
    - メモリ使用量の最適化
    - 実験結果の可視化
 
-
 ## 📚 実装例
 
 本リポジトリには以下の実装例が含まれています：
 
-1. **Unslothを使用した高速ファインチューニング**  
-   - Llama-3.2-1B/3Bモデルの高速ファインチューニング実装  
-     - → 詳細は [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) をご参照ください。
-     - → [マークダウン形式からノートブック形式への変換はこちらを使用してください](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
-   - [📒ノートブックはこちら](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
+### Unslothを使用した高速ファインチューニング
+ - Llama-3.2-1B/3Bモデルの高速ファインチューニング実装  
+   - → 詳細は [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) をご参照ください。
+   - → [マークダウン形式からノートブック形式への変換はこちらを使用してください](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
+ - [📒ノートブックはこちら](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
-2. その他の実装例は随時追加予定
+### OllamaとLiteLLMを使用した効率的なモデル運用
+ - Google Colabでのセットアップと運用ガイド
+ - → 詳細は [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) をご参照ください。
+ - [📒ノートブックはこちら](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
 
 ## 🛠️ 環境構築
 
