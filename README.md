@@ -64,21 +64,47 @@ license: mit
    - メモリ使用量の最適化
    - 実験結果の可視化
 
-## 🔧 使用方法
 
-本リポジトリには、Unslothライブラリを使用した高速ファインチューニングのチュートリアル(`sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`)が含まれています。このチュートリアルでは、ステップバイステップでファインチューニングの方法を説明し、コード例も豊富に含んでいます。日本語で記述されたチュートリアルです。[マークダウン形式からノートブック形式への変換はこちらを使用してください](https://huggingface.co/spaces/MakiAi/JupytextWebUI)  また、[Google Colabノートブック](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)もご利用いただけます。
+## 📚 実装例
 
+本リポジトリには以下の実装例が含まれています：
 
-## 📦 インストール手順
+1. **Unslothを使用した高速ファインチューニング**  
+   - Llama-3.2-1B/3Bモデルの高速ファインチューニング実装  
+     - → 詳細は [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) をご参照ください。
+     - → [マークダウン形式からノートブック形式への変換はこちらを使用してください](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
+   - [📒ノートブックはこちら](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
-情報がありません。
+2. その他の実装例は随時追加予定
 
+## 🛠️ 環境構築
 
-## 🆕 最新情報
+1. リポジトリのクローン:
+```bash
+git clone https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox.git
+cd Llama-finetune-sandbox
+```
 
-- 🎉 Llamaモデルファインチューニングチュートリアルの追加。
+## 📝 実験例の追加方法
 
+1. `examples/`ディレクトリに新しい実装を追加
+2. 必要な設定やユーティリティを`utils/`に追加
+3. ドキュメントとテストを更新
+4. プルリクエストを作成
 
-## 📄 ライセンス
+## 🤝 コントリビューション
+
+- 新しいファインチューニング手法の実装
+- バグ修正や機能改善
+- ドキュメントの改善
+- 使用例の追加
+
+## 📚 参考資料
+
+- [HuggingFace PEFT ドキュメント](https://huggingface.co/docs/peft)
+- [Llama モデルについて](https://github.com/facebookresearch/llama)
+- [ファインチューニングのベストプラクティス](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
+
+## ⚖️ ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
