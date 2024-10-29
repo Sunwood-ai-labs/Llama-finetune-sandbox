@@ -44,7 +44,7 @@ license: mit
 
 ## 🚀 プロジェクト概要
 
-**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.2.0では、ドキュメントの更新と改善が行われました。特に、OllamaとLiteLLMを使った効率的なモデル運用ガイドが追加され、README.mdと実装例ガイドも見やすくなりました。
+**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.3.0では、ドキュメントの改善と英語READMEの更新を行いました。
 
 
 ## ✨ 主な機能
@@ -59,7 +59,7 @@ license: mit
    - 複数のアテンションメカニズム
 
 3. **実験環境の整備**:
-   - 性能評価ツール
+   - 性能評価ツール (v0.3.0で追加、その後削除されました)
    - メモリ使用量の最適化
    - 実験結果の可視化
 
@@ -79,14 +79,14 @@ license: mit
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
 
 ### LLM評価システム (LLMs as a Judge)
- - LLMの回答品質を自動的に評価するシステムの実装
+ - LLMの回答品質を自動的に評価するシステムの実装 (v0.3.0で追加、その後削除されました)
  - LLMを評価者として活用し、他のLLMの回答を評価（LLMs as a Judge手法）
  - 4段階評価スケールによる定量的な品質評価とフィードバック生成
  - → 詳細は [`llm-evaluator-notebook.md`](sandbox/llm-evaluator-notebook.md) をご参照ください。
  - GeminiとLiteLLMを使用した効率的な評価システム
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
 
-## 🛠️ 環境構築
+## 🔧 環境構築
 
 1. リポジトリのクローン:
 ```bash
@@ -117,4 +117,5 @@ cd Llama-finetune-sandbox
 ## 📄 ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
+
 ```
