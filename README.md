@@ -78,6 +78,13 @@ license: mit
  - → 詳細は [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) をご参照ください。
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
 
+### LLM評価システム (LLMs as a Judge)
+ - LLMの回答品質を自動的に評価するシステムの実装
+ - LLMを評価者として活用し、他のLLMの回答を評価（LLMs as a Judge手法）
+ - 4段階評価スケールによる定量的な品質評価とフィードバック生成
+ - → 詳細は [`llm-evaluator-notebook.md`](sandbox/llm-evaluator-notebook.md) をご参照ください。
+ - GeminiとLiteLLMを使用した効率的な評価システム
+ - [📒ノートブックはこちら](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
 
 ## 🛠️ 環境構築
 
