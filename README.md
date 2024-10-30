@@ -86,6 +86,13 @@ license: mit
  - GeminiとLiteLLMを使用した効率的な評価システム
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
 
+### WikipediaデータからのQ&Aデータセット生成（センテンスプールQA方式）
+- センテンスプールQA方式による高品質Q&Aデータセット生成
+  - → 句点区切りの文をプールして文脈を保持しながらQ&Aペアを生成する新しいデータセット作成手法
+  - → チャンクサイズを柔軟に調整可能（デフォルト200文字）で、用途に応じた最適な文脈範囲でQ&Aペアを生成
+  - → 詳細は [`wikipedia-qa-dataset-generator.md`](sandbox/wikipedia-qa-dataset-generator.md) をご参照ください。
+- [📒ノートブックはこちら](https://colab.research.google.com/drive/1mmK5vxUzjk3lI6OnEPrQqyjSzqsEoXpk?usp=sharing)
+
 ## 🛠️ 環境構築
 
 1. リポジトリのクローン:
