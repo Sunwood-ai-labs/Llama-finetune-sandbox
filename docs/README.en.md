@@ -44,10 +44,10 @@ license: mit
 
 ## 🚀 Project Overview
 
-**Llama-finetune-sandbox** provides an experimental environment for learning and verifying Llama model fine-tuning.  You can try various fine-tuning methods, customize models, and evaluate their performance.  It caters to a wide range of users, from beginners to researchers. Version 0.2.0 includes updated and improved documentation.  Specifically, it adds guides for efficient model operation using Ollama and LiteLLM, and improves the readability of the README.md and implementation example guides.
+**Llama-finetune-sandbox** provides an experimental environment for learning and validating Llama model fine-tuning.  You can try various fine-tuning methods, customize models, and evaluate performance.  It caters to a wide range of users, from beginners to researchers.  Version 0.3.0 included improved documentation and an updated English README.
 
 
-## ✨ Main Features
+## ✨ Key Features
 
 1. **Diverse Fine-tuning Methods**:
    - LoRA (Low-Rank Adaptation)
@@ -58,36 +58,43 @@ license: mit
    - Various quantization options
    - Multiple attention mechanisms
 
-3. **Experiment Environment Setup**:
-   - Performance evaluation tools
-   - Memory usage optimization
+3. **Experiment Environment**:
+   - Performance evaluation tools (added in v0.3.0, later removed)
+   - Optimized memory usage
    - Visualization of experimental results
 
-## 📚 Implementation Examples
+## 📚 Examples
 
-This repository includes the following implementation examples:
+This repository includes the following examples:
 
-### High-Speed Fine-tuning using Unsloth
- - Implementation of high-speed fine-tuning for Llama-3.2-1B/3B models
-   - → See [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) for details.
-   - → [Use this to convert from markdown to notebook format](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
+### Fast Fine-tuning using Unsloth
+ - Implementation of fast fine-tuning for Llama-3.2-1B/3B models.
+   - → See [`Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md`](sandbox/Llama_3_2_1B+3B_Conversational_+_2x_faster_finetuning_JP.md) for details. (Japanese)
+   - → Use [this](https://huggingface.co/spaces/MakiAi/JupytextWebUI) to convert from markdown to notebook format.
  - [📒Notebook here](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
-### Efficient Model Operation using Ollama and LiteLLM
- - Setup and operation guide on Google Colab
+### Efficient Model Deployment using Ollama and LiteLLM
+ - Setup and deployment guide on Google Colab.
  - → See [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) for details.
  - [📒Notebook here](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
 
 ### LLM Evaluation System (LLMs as a Judge)
- - Implementation of a system for automatically evaluating the quality of LLM responses.
+ - Implementation of a system for automatically evaluating the quality of LLM responses (added in v0.3.0, later removed).
  - Uses LLMs as evaluators to assess the responses of other LLMs (LLMs as a Judge method).
  - Quantitative quality assessment and feedback generation using a 4-level rating scale.
  - → See [`llm-evaluator-notebook.md`](sandbox/llm-evaluator-notebook.md) for details.
  - Efficient evaluation system using Gemini and LiteLLM.
  - [📒Notebook here](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
 
+### Wikipedia Data-based Q&A Dataset Generation (Sentence Pool QA Method)
+ - Generation of high-quality Q&A datasets using the sentence pool QA method.
+   - → A new dataset creation method that generates Q&A pairs while preserving context by pooling sentences separated by periods.
+   - → Chunk size is flexibly adjustable (default 200 characters) to generate Q&A pairs with optimal context ranges for different purposes.
+   - → See [`wikipedia-qa-dataset-generator.md`](sandbox/wikipedia-qa-dataset-generator.md) for details.
+ - [📒Notebook here](https://colab.research.google.com/drive/1mmK5vxUzjk3lI6OnEPrQqyjSzqsEoXpk?usp=sharing)
 
-## 🛠️ Environment Setup
+
+## 🛠️ Setup
 
 1. Clone the repository:
 ```bash
@@ -95,7 +102,7 @@ git clone https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox.git
 cd Llama-finetune-sandbox
 ```
 
-## 📝 Adding Implementation Examples
+## 📝 Adding Examples
 
 1. Add new implementations to the `examples/` directory.
 2. Add necessary settings and utilities to `utils/`.
@@ -104,18 +111,17 @@ cd Llama-finetune-sandbox
 
 ## 🤝 Contributions
 
-- Implementation of new fine-tuning methods
-- Bug fixes and feature improvements
-- Documentation improvements
-- Addition of usage examples
+- Implementation of new fine-tuning methods.
+- Bug fixes and feature improvements.
+- Documentation improvements.
+- Addition of usage examples.
 
 ## 📚 References
 
 - [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft)
-- [About Llama models](https://github.com/facebookresearch/llama)
-- [Fine-tuning best practices](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
+- [About Llama Models](https://github.com/facebookresearch/llama)
+- [Fine-tuning Best Practices](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-```
