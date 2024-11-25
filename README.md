@@ -86,6 +86,7 @@ license: mit
  - GeminiとLiteLLMを使用した効率的な評価システム
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
 
+
 ### WikipediaデータからのQ&Aデータセット生成（センテンスプールQA方式）
 - センテンスプールQA方式による高品質Q&Aデータセット生成
   - → 句点区切りの文をプールして文脈を保持しながらQ&Aペアを生成する新しいデータセット作成手法
@@ -93,6 +94,14 @@ license: mit
   - → 詳細は [`wikipedia-qa-dataset-generator.md`](sandbox/wikipedia-qa-dataset-generator.md) をご参照ください。
 - [📒ノートブックはこちら](https://colab.research.google.com/drive/1mmK5vxUzjk3lI6OnEPrQqyjSzqsEoXpk?usp=sharing)
 
+### コンテキストアウェアリフレクティブQA生成システム
+- リフレクティブな品質改善を行うQ&Aデータセット生成
+  - → 生成したQ&Aペアの品質を自動評価し、段階的に改善を行う新方式
+  - → 事実性、質問品質、回答の完全性を数値化して評価
+  - → 文脈情報を活用した高精度な質問生成と回答の整合性チェック
+  - → 詳細は [`context_aware_Reflexive_qa_generator_V2.md`](sandbox/context_aware_Reflexive_qa_generator_V2.md) をご参照ください。
+- [📒ノートブックはこちら](https://colab.research.google.com/drive/1OYdgAuXHbl-0LUJgkLl_VqknaAEmAm0S?usp=sharing)
+  
 ## 🛠️ 環境構築
 
 1. リポジトリのクローン:
