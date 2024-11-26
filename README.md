@@ -101,7 +101,15 @@ license: mit
   - → 文脈情報を活用した高精度な質問生成と回答の整合性チェック
   - → 詳細は [`context_aware_Reflexive_qa_generator_V2.md`](sandbox/context_aware_Reflexive_qa_generator_V2.md) をご参照ください。
 - [📒ノートブックはこちら](https://colab.research.google.com/drive/1OYdgAuXHbl-0LUJgkLl_VqknaAEmAm0S?usp=sharing)
-  
+
+### LLM評価システム (LLMs as a Judge)
+- LLMを評価者として活用する高度な品質評価システム
+  - → 質問、模範解答、LLMの回答を4段階スケールで自動評価
+  - → エラーハンドリングとリトライ機能による堅牢な設計
+  - → CSV、HTML形式での詳細な評価レポート生成
+  - → 詳細は [`LLMs_as_a_Judge_TOHO_V2.md`](sandbox/LLMs_as_a_Judge_TOHO_V2.md) をご参照ください。
+- [📒ノートブックはこちら](https://colab.research.google.com/drive/1Zjw3sOMa2v5RFD8dFfxMZ4NDGFoQOL7s?usp=sharing
+
 ## 🛠️ 環境構築
 
 1. リポジトリのクローン:
