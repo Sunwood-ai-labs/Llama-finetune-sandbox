@@ -107,7 +107,7 @@ license: mit
   - → エラーハンドリングとリトライ機能による堅牢な設計
   - → CSV、HTML形式での詳細な評価レポート生成
   - → 詳細は [`LLMs_as_a_Judge_TOHO_V2.md`](sandbox/LLMs_as_a_Judge_TOHO_V2.md) をご参照ください。
-- [📒ノートブックはこちら](https://colab.research.google.com/drive/1Zjw3sOMa2v5RFD8dFfxMZ4NDGFoQOL7s?usp=sharing
+- [📒ノートブックはこちら](https://colab.research.google.com/drive/1Zjw3sOMa2v5RFD8dFfxMZ4NDGFoQOL7s?usp=sharing)
 
 ## 🛠️ 環境構築
 
