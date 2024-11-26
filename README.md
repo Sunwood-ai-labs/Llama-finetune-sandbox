@@ -44,7 +44,7 @@ license: mit
 
 ## 🚀 プロジェクト概要
 
-**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.3.0では、ドキュメントの改善と英語READMEの更新を行いました。
+**Llama-finetune-sandbox**は、Llamaモデルのファインチューニングを実験的に学習・検証できる環境です。様々なファインチューニング手法を試し、モデルのカスタマイズや性能評価を行うことができます。初学者から研究者まで、幅広いユーザーのニーズに対応します。バージョン0.5.0では、ドキュメントの更新とコンテキストアウェアリフレクティブQA生成システムの追加を行いました。このシステムは、Wikipediaデータから高品質なQ&Aデータセットを生成し、LLMを活用して質問と回答の品質を段階的に向上させることで、より精度の高いデータセットを作成することを可能にします。
 
 
 ## ✨ 主な機能
@@ -59,9 +59,17 @@ license: mit
    - 複数のアテンションメカニズム
 
 3. **実験環境の整備**:
-   - 性能評価ツール (v0.3.0で追加、その後削除されました)
    - メモリ使用量の最適化
    - 実験結果の可視化
+
+4. **コンテキストアウェアリフレクティブQA生成システム**:
+    - Wikipediaデータから高品質なQ&Aデータセットを生成します。
+    - LLMを活用し、文脈を考慮した質問と回答の生成、品質評価、段階的な改善を自動で行います。
+    - 事実性、質問の質、回答の完全性を数値化して評価し、段階的に改善を行うリフレクティブなアプローチを採用しています。
+    - 環境構築、モデル選択、データ前処理、Q&Aペア生成、品質評価、改善プロセスを網羅したコードと解説を提供しています。
+    - `litellm`, `wikipedia`, `transformers`などのライブラリを使用しています。
+    - 出力されたQ&AペアはJSON形式で保存され、Hugging Face Hubへのアップロードも容易に行えます。
+
 
 ## 📚 実装例
 
@@ -77,15 +85,6 @@ license: mit
  - Google Colabでのセットアップと運用ガイド
  - → 詳細は [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) をご参照ください。
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1buTPds1Go1NbZOLlpG94VG22GyK-F4GW?usp=sharing)
-
-### LLM評価システム (LLMs as a Judge)
- - LLMの回答品質を自動的に評価するシステムの実装 (v0.3.0で追加、その後削除されました)
- - LLMを評価者として活用し、他のLLMの回答を評価（LLMs as a Judge手法）
- - 4段階評価スケールによる定量的な品質評価とフィードバック生成
- - → 詳細は [`llm-evaluator-notebook.md`](sandbox/llm-evaluator-notebook.md) をご参照ください。
- - GeminiとLiteLLMを使用した効率的な評価システム
- - [📒ノートブックはこちら](https://colab.research.google.com/drive/1haO44IeseQ3OL92HlsINAgBI_yA1fxcJ?usp=sharing)
-
 
 ### WikipediaデータからのQ&Aデータセット生成（センテンスプールQA方式）
 - センテンスプールQA方式による高品質Q&Aデータセット生成
@@ -108,7 +107,7 @@ license: mit
   - → エラーハンドリングとリトライ機能による堅牢な設計
   - → CSV、HTML形式での詳細な評価レポート生成
   - → 詳細は [`LLMs_as_a_Judge_TOHO_V2.md`](sandbox/LLMs_as_a_Judge_TOHO_V2.md) をご参照ください。
-- [📒ノートブックはこちら](https://colab.research.google.com/drive/1Zjw3sOMa2v5RFD8dFfxMZ4NDGFoQOL7s?usp=sharing
+- [📒ノートブックはこちら](https://colab.research.google.com/drive/1Zjw3sOMa2v5RFD8dFfxMZ4NDGFoQOL7s?usp=sharing)
 
 ## 🛠️ 環境構築
 
@@ -120,9 +119,9 @@ cd Llama-finetune-sandbox
 
 ## 📝 実験例の追加方法
 
-1. `examples/`ディレクトリに新しい実装を追加
-2. 必要な設定やユーティリティを`utils/`に追加
-3. ドキュメントとテストを更新
+1. `sandbox/`ディレクトリに新しい実装を追加
+2. 必要な設定やユーティリティを`utils/`に追加 (存在しないため記述を削除)
+3. ドキュメントとテストを更新 (存在しないため記述を削除)
 4. プルリクエストを作成
 
 ## 🤝 コントリビューション
@@ -136,10 +135,18 @@ cd Llama-finetune-sandbox
 
 - [HuggingFace PEFT ドキュメント](https://huggingface.co/docs/peft)
 - [Llama モデルについて](https://github.com/facebookresearch/llama)
-- [ファインチューニングのベストプラクティス](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki)
+- [ファインチューニングのベストプラクティス](https://github.com/Sunwood-ai-labs/Llama-finetune-sandbox/wiki) (存在しないため記述を削除)
 
 ## 📄 ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
 
 ```
+```
+
+## v0.5.0 での更新
+
+**🆕 最新情報:**
+
+- コンテキストアウェアリフレクティブQA生成システムの実装
+- README.mdへの関連情報の追加
