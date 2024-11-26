@@ -96,6 +96,17 @@ license: mit
    - → [マークダウン形式からノートブック形式への変換はこちらを使用してください](https://huggingface.co/spaces/MakiAi/JupytextWebUI)
  - [📒ノートブックはこちら](https://colab.research.google.com/drive/1AjtWF2vOEwzIoCMmlQfSTYCVgy4Y78Wi?usp=sharing)
 
+### Unslothを使用した高速推論
+ - Llama-3.2モデルの高速推論実装
+   - → 詳細は [`Unsloth_inference_llama3-2.md`](sandbox/Unsloth_inference_llama3-2.md) をご参照ください。
+   - → Unslothを使用したLlama-3.2モデルの効率的な推論処理の実装
+ - [📒ノートブックはこちら](https://colab.research.google.com/drive/1FkAYiX2fbGPTRUopYw39Qt5UE2tWJRpa?usp=sharing)
+
+ - LLM-JPモデルの高速推論実装
+   - → 詳細は [`Unsloth_inference_llm_jp.md`](sandbox/Unsloth_inference_llm_jp.md) をご参照ください。
+   - → 日本語LLMの高速推論処理の実装とパフォーマンス最適化
+ - [📒ノートブックはこちら](https://colab.research.google.com/drive/1lbMKv7NzXQ1ynCg7DGQ6PcCFPK-zlSEG?usp=sharing)
+
 ### OllamaとLiteLLMを使用した効率的なモデル運用
  - Google Colabでのセットアップと運用ガイド
  - → 詳細は [`efficient-ollama-colab-setup-with-litellm-guide.md`](sandbox/efficient-ollama-colab-setup-with-litellm-guide.md) をご参照ください。
